@@ -73,14 +73,14 @@ header nav {
     justify-content: center;
 }
 
-.hero div a {
+.cuadroInfo div a {
     background-color: #99042f;
     text-decoration: none;
     color: white;
     transition: 1s;
     
 }
-.hero div a:hover{
+.cuadroInfo div a:hover{
     transform: scale(1.5);
 }
 

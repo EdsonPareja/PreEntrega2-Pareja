@@ -1,0 +1,89 @@
+@media screen and (max-width:1024px) {
+    .footerInfo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .pageHabitacionesImg{
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 300px;
+    }
+
+}
+
+@media screen and (max-width:950px) {
+    .gridConteiner {
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .gridItem {
+        grid-column: span 1;
+        grid-row: span 1;
+    }
+    .pageLugaresContenedor{
+        grid-template-columns: repeat(2,1fr);
+        grid-auto-rows: 250px;
+    }
+
+}
+
+
+
+@media screen and (max-width:728px) {
+    .gridConteiner {
+        grid-template-columns: repeat(2, 1fr);
+        grid-auto-rows: 220px;
+    }
+
+    .gridItem {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+
+    .pageHabitacionesImg{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 300px;
+    }
+    .PageNosotros div img{
+        width: 450px;
+        height: 350px;
+    }
+
+}
+
+
+@media screen and (max-width:450px) {
+    .gridConteiner {
+        grid-template-columns: 1fr;
+    }
+
+    .gridItem {
+        grid-column: span 1;
+        grid-row: span 1;
+
+    }
+    .cuadroInfo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        bottom: 350px;
+
+    }
+    .hero div a{
+        background-color: #99042f;
+        margin: 0 auto ;
+        padding: 5px;
+
+    }
+    .PageNosotros div img{
+        width: 350px;
+        height: 250px;
+    }
+    .pageLugaresContenedor{
+        grid-template-columns: 1fr;
+        grid-auto-rows: 200px;
+    }
+
+}

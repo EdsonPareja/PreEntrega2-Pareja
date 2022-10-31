@@ -1,0 +1,62 @@
+.footer{
+    div{
+        margin: 60px;
+        padding: 1px;
+    }
+    .footerInfo {
+        display: flex;
+        justify-content: space-around;
+        .contacto{
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-size: 35px;
+            }
+        }
+        .reserva{
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-size: 35px;
+            }
+        }
+        .traslado{
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-size: 35px;
+            }
+        }
+        .redes{
+            h2{
+                font-family: 'Roboto', sans-serif;
+                font-size: 35px;
+            }
+            a{
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+        }
+    
+    }
+
+}
+.copyr{
+    width: 100%;
+    height: 100px;
+    padding: 1px;
+    margin: 1px;
+    background-color: #99042f;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    div{
+        p{
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+        a{
+            color: white;
+        }
+    }
+}
