@@ -314,6 +314,10 @@ header nav {
   .centroHistorico {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: auto; }
+  .PageNosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     grid-auto-rows: auto; } }
 
 @media screen and (max-width: 1024px) {
@@ -353,6 +357,10 @@ header nav {
     width: 450px;
     height: 350px; }
   .centroHistorico {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto; }
+  .PageNosotros {
     display: grid;
     grid-template-columns: 1fr;
     grid-auto-rows: auto; } }
