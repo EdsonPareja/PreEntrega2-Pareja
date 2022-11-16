@@ -126,5 +126,9 @@
         height: 410px;
         text-align: center;
     }
+    .PageNosotros{
+        display: grid;
+        grid-template-columns:1fr;
+        grid-auto-rows:auto;}
     
 }

@@ -390,4 +390,8 @@ header nav {
   .card-lugares {
     width: 210px;
     height: 410px;
-    text-align: center; } }
+    text-align: center; }
+  .PageNosotros {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-auto-rows: auto; } }
